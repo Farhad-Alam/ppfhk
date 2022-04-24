@@ -7,7 +7,7 @@ import { loginAtom } from "../atoms/logInAtom";
 import { toast } from "react-toastify";
 import { useState } from "react";
 
-const loginForm = () => {
+const LoginForm = () => {
   const [logIn, setLogIn] = useRecoilState(loginAtom);
   const [loading, setLoading] = useState(false);
 
@@ -150,4 +150,4 @@ const loginForm = () => {
   );
 };
 
-export default loginForm;
+export default LoginForm;
